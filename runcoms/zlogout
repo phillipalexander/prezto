@@ -8,6 +8,6 @@
 # Print the message.
 cat <<-EOF
 
-Thank you. Come again!
-  -- Dr. Apu Nahasapeemapetilon
+Deleted code is debugged code!
+  -- Jeff Sickel
 EOF
