@@ -30,8 +30,12 @@ zstyle ':prezto:load' pmodule \
   'history' \
   'directory' \
   'spectrum' \
+  'node' \
+  'ruby' \
+  'git' \
   'utility' \
   'completion' \
+  'syntax-highlighting' \
   'prompt'
 
 #
