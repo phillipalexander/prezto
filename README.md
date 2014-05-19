@@ -11,15 +11,19 @@ Installation
 Prezto will work with any recent release of Zsh, but the minimum recommended
 version is 4.3.11.
 
-  1. Launch Zsh:
+  1. Install figlet and fasd:
+
+        brew install figlet fasd
+
+  2. Launch Zsh:
 
         zsh
 
-  2. Clone the repository:
+  3. Clone the repository:
 
         git clone --recursive https://github.com/phillipalexander/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
-  3. Create a new Zsh configuration by copying the Zsh configuration files
+  4. Create a new Zsh configuration by copying the Zsh configuration files
      provided:
 
         setopt EXTENDED_GLOB
@@ -27,11 +31,11 @@ version is 4.3.11.
           ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
         done
 
-  4. Set Zsh as your default shell:
+  5. Set Zsh as your default shell:
 
         chsh -s /bin/zsh
 
-  5. Open a new Zsh terminal window or tab.
+  6. Open a new Zsh terminal window or tab.
 
 ### Troubleshooting
 
