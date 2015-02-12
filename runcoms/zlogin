@@ -15,6 +15,6 @@
 } &!
 
 if (( $+commands[figlet] )); then
-  figlet -f slant phillipalexander | lolcat --force
+  figlet -f slant phillipalexander
   print
 fi
