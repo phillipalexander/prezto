@@ -30,7 +30,7 @@ while (( $# > 0 )); do
     continue
   fi
 
-  case "$1" in
+  case "$1:l" in
     (*.tar.gz|*.tgz) tar t${verbose:+v}vzf "$1" ;;
     (*.tar.bz2|*.tbz|*.tbz2) tar t${verbose:+v}jf "$1" ;;
     (*.tar.xz|*.txz) tar --xz --help &> /dev/null \
@@ -46,11 +46,10 @@ while (( $# > 0 )); do
       || rar ${${verbose:+v}:-l} "$1" ;;
     (*.7z) 7za l "$1" ;;
     (*)
-			print "$0: cannot list: $1" >&2
+      print "$0: cannot list: $1" >&2
       success=1
     ;;
   esac
 
   shift
 done
-

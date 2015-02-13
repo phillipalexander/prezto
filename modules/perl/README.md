@@ -1,7 +1,7 @@
 Perl
 ====
 
-Enables local [Perl][1] module installation on Mac OS X and defines alises.
+Enables local [Perl][1] module installation on Mac OS X and defines aliases.
 
 Local Module Installation
 -------------------------
@@ -61,4 +61,3 @@ Authors
 [1]: http://www.perl.org
 [2]: http://perlbrew.pl
 [3]: https://github.com/sorin-ionescu/prezto/issues
-

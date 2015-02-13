@@ -1,7 +1,7 @@
 GNU Utility
 ===========
 
-Provides for the interactive use of GNU utilities on non-GNU systems.
+Provides for the interactive use of GNU utilities on BSD systems.
 
 Installing GNU utilities on non-GNU systems in `$PATH` without a prefix, i.e.
 `ls` instead of `gls`, is not recommended since scripts that target other
@@ -30,4 +30,3 @@ Authors
   - [Sorin Ionescu](https://github.com/sorin-ionescu)
 
 [1]: https://github.com/sorin-ionescu/prezto/issues
-

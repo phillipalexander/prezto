@@ -11,4 +11,3 @@ cat <<-EOF
 Deleted code is debugged code!
   -- Jeff Sickel
 EOF
-

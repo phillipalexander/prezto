@@ -8,8 +8,8 @@ and prompt themes.
 Installation
 ------------
 
-Prezto will work with any recent release of Zsh, but the minimum recommended
-version is 4.3.11.
+Prezto will work with any recent release of Zsh, but the minimum required
+version is 4.3.17.
 
   1. Install figlet and fasd:
 
@@ -115,4 +115,3 @@ SOFTWARE.
 [6]: http://gitref.org
 [7]: http://www.bash2zsh.com/zsh_refcard/refcard.pdf
 [8]: http://grml.org/zsh/zsh-lovers.html
-

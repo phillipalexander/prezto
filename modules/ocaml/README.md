@@ -1,15 +1,15 @@
-Ocaml
+OCaml
 =====
 
-Initializes [Ocaml][1] package management.
+Initializes [OCaml][1] package management.
 
 OPAM
 ----
 
-[OPAM][2] is a package manager for Ocaml.
+[OPAM][2] is a package manager for OCaml.
 
 This module enables local package installation with OPAM by extending the
-relevant path and Ocaml variables.
+relevant path and OCaml variables.
 
 ### Usage
 
@@ -25,4 +25,3 @@ Authors
 [1]: http://ocaml.org/
 [2]: http://opam.ocamlpro.com/
 [3]: https://github.com/sorin-ionescu/prezto/issues
-
